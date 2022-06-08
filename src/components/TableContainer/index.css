@@ -1,0 +1,62 @@
+.action-sky-table-footer-filter-container {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: #fff;
+  border-top: 1px solid #f0f0f0;
+  width: 100%;
+  box-shadow: 0 -6px 16px -8px rgb(0 0 0 / 8%), 0 -9px 28px 0 rgb(0 0 0 / 5%),
+    0 -12px 48px 16px rgb(0 0 0 / 3%);
+  transition: width 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.action-sky-table-footer-filter-container .table-footer-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 24px;
+}
+.action-sky-table-footer-filter-container .table-footer-container .left-container {
+  flex: 1;
+  padding-right: 20px;
+  margin-bottom: 5px;
+}
+.action-sky-table-footer-filter-container .table-footer-container .left-container:last-child{
+  margin-bottom: 0;
+}
+.table-footer-wrapper {
+  display: flex;
+
+}
+.table-footer-wrapper .table-footer-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.table-footer-wrapper .ant-typography {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.table-footer-wrapper .ant-typography  .ant-space .ant-space-item {
+  font-size: 16px;
+  font-weight: 500;
+}
+.right-split-line {
+  height: 100%;
+}
+.table-footer-content {
+  flex: 1;
+
+}
+.table-footer-content .filter-label {
+  padding-right: 10px;
+}
+.table-footer-content .filter-tags {
+  flex-wrap: wrap;
+}
+.bottom-split-line {
+  padding: 0 24px;
+}
