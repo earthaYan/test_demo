@@ -16,7 +16,6 @@ export const generateSelectFilter = (
 ) => {
   const optionsMap = turnFilterOptionDataToObjectArr(options);
   return ({ setSelectedKeys, selectedKeys, confirm }) => {
-    console.log(selectedKeys,111)
     return (
       <Space direction="vertical" style={{ padding: 8 }}>
         <Row>
